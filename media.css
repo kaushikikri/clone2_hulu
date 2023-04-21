@@ -1,0 +1,190 @@
+@media (max-width:1279px) {
+    .example-gallery {
+        grid-template-columns: 1fr 1fr;
+        padding-inline: 10px;
+    }
+
+    .gallery img {
+        width: 350px;
+        max-width: 100%;
+        height: auto;
+    }
+
+    .last-example {
+        justify-content: start;
+        text-align: left;
+    }
+
+    footer {
+        padding-inline: 5vw;
+    }
+}
+
+
+@media (max-width:1023px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .log-btn {
+        display: none;
+    }
+
+    .bars {
+        display: unset;
+    }
+
+    .plans-header {
+        flex-basis: 50%;
+    }
+
+    .example-text {
+        max-width: 100%;
+    }
+
+    .about {
+        width: 80vw;
+        padding-inline: 20px;
+    }
+
+    .ads-section {
+        height: 205vh;
+    }
+
+    .ads {
+        width: 50%;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+    }
+
+    .ads-img {
+        justify-content: center;
+    }
+
+    .ads-section-1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(assets/live-sports-small.jpg) no-repeat;
+        background-position: 0 80%;
+        background-size: cover;
+    }
+
+    .ads-section-2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(assets/breaking-news-small.jpg) no-repeat;
+        background-position: 0 80%;
+        background-size: cover;
+    }
+
+    .ads-section-3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5)), url(assets/biggest-event-small.jpg) no-repeat;
+        background-position: 0 80%;
+        background-size: cover;
+    }
+
+    .browse {
+        flex-basis: 100%;
+    }
+
+    .foot-container {
+        justify-content: space-between;
+    }
+}
+
+
+@media (max-width:767px) {
+    h1 {
+        font-size: 32px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    .primary-btn {
+        width: 90%;
+        padding-inline: unset;
+    }
+
+    .logos {
+        width: 50%;
+        margin: auto;
+    }
+
+    .header-body h3 {
+        width: unset;
+    }
+
+    .header-footer {
+        flex-direction: column;
+        margin: auto;
+        gap: 10px;
+    }
+
+    .plans-header {
+        align-items: center;
+        padding-inline: 0;
+    }
+
+    .plans-header h3 {
+        text-align: center;
+    }
+
+    .example-text {
+        padding: 1rem;
+    }
+
+    .about {
+        max-width: 100%;
+        padding-inline: 0;
+    }
+
+    .ads-section {
+        height: 170vh;
+    }
+
+    .ads {
+        width: auto;
+    }
+
+    .ads-section-1,
+    .ads-section-2,
+    .ads-section-3 {
+        background-position: 50% 0;
+    }
+
+    .foot-1 {
+        display: block;
+    }
+
+    .foot-title {
+        border: none;
+        border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+        padding-block: 30px;
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    hr {
+        display: none;
+    }
+
+    .foot-item {
+        display: none;
+    }
+}
+
+
+@media (max-width:374px) {
+    .container {
+        padding-inline: 1px;
+    }
+
+    .example-text h1 {
+        font-size: 24px;
+        font-weight: 400;
+    }
+
+}
